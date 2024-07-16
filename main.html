@@ -1,0 +1,531 @@
+<html>
+
+<head>
+	<title>aums.creations</title>
+	<style>
+		.txt {
+			font-size: 50px;
+		}
+
+		.txt:hover {
+			color: purple;
+
+		}
+
+		.box {
+			border: solid 5px #33CCCC;
+			margin-top: 80px;
+		}
+
+		/* @keyframes rotateanim {
+			from {
+				transform: rotate(0deg);
+			}
+
+			to {
+				transform: rotate(360deg);
+			}
+		} */
+
+		.best {
+			font-style: oblique;
+			font-size: 40px;
+
+		}
+
+
+
+		.inline-div {
+
+			display: inline-block;
+			margin: 5px;
+			padding-right: 23px;
+			padding-left: 20px;
+			alignment-adjust: middle;
+			text-align: center;
+
+		}
+
+		.inline-div1 {
+
+			display: inline-block;
+			margin: 24px;
+			padding-right: 23px;
+			padding-left: 20px;
+			alignment-adjust: middle;
+			text-align: center;
+			border: 2px blue solid;
+			border-radius: 20px;
+
+		}
+
+		.marquee {
+			font-size: 36px;
+			font-style: normal;
+			color: #C00;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+
+
+
+		.new {
+			border: 3px solid purple;
+			margin-top: 1px;
+			margin-right: 450px;
+			margin-bottom: 25px;
+			margin-left: 450px;
+			padding-top: 25px;
+			padding-bottom: 25px;
+			border-top-left-radius: 40px;
+			border-top-right-radius: 40px;
+			border-bottom-left-radius: 40px;
+			border-bottom-right-radius: 40px;
+
+		}
+
+		.photo3 {
+			width: 200px;
+			height: 200px;
+			padding: 3px;
+			border: 4px solid #C09;
+			border-top-left-radius: 50%;
+			border-top-right-radius: 50%;
+			border-bottom-right-radius: 50%;
+			border-bottom-left-radius: 50%;
+		}
+
+		.border {
+			border: 4px;
+			border-style: double;
+			border-color: #F69;
+			margin-left: 300px;
+			margin-right: 300px;
+			padding-bottom: px;
+			width: 100%;
+		}
+
+		.float {
+			float: right;
+			width: 25%;
+		}
+
+		.pictures {
+
+			border-radius: 50% 50% 50% 50%;
+			width: 150px;
+			height: 150px;
+			margin-bottom: 4px;
+			float: right;
+
+		}
+
+		.testimonials {
+			border-style: solid;
+			border-color: #FCC;
+			border-radius: 50%;
+			margin: 25px;
+			padding: 5px;
+			float: left;
+
+		}
+
+		.testimonials1 {
+			padding-left: 260px;
+			display: flex;
+
+
+		}
+
+		.testimonials:hover {
+
+			border: none;
+
+			box-shadow: 0px 0px 60px 14px rgba(0, 0, 0, 0.3);
+		}
+
+	
+
+		.footer {
+			background-color: rgb(241, 209, 209);
+			height: 300px;
+
+
+		}
+
+		.span {
+
+			text-align: center;
+			background-color: rgb(188, 119, 206);
+			width: 15%;
+		}
+
+		.links:hover {
+			font-size: large;
+		}
+
+		.nav {
+			background-color: rgb(236, 200, 219);
+			height: 80px;
+			border-top-left-radius: 40px;
+			border-top-right-radius: 40px;
+			border-bottom-left-radius: 40px;
+			border-bottom-right-radius: 40px;
+			width: 99%;
+			position: fixed;
+		}
+
+
+		.mylogo {
+			margin-left: 5px;
+			border-radius: 50%;
+			margin-top: 5px;
+
+		}
+
+		.search {
+			width: 50%;
+			height: 40px;
+			border-top-left-radius: 40px;
+			border-top-right-radius: 40px;
+			border-bottom-left-radius: 40px;
+			border-bottom-right-radius: 40px;
+			margin-top: 20px;
+
+		}
+
+		.sbox {
+			margin-left: 10%;
+
+		}
+
+		.logo {
+			width: 4vw;
+			height: 6vh;
+			margin-right: 15px;
+			margin-top: 20px;
+		}
+
+		.logo2 {
+			width: 4vw;
+			height: 6vh;
+			margin-right: 15px;
+			margin-top: 20px;
+		}
+
+		.logo3 {
+			width: 4vw;
+			height: 6vh;
+			margin-right: 15px;
+			margin-top: 20px;
+		}
+
+		.logo4 {
+			width: 30px;
+			height: 30px;
+			margin-left: 30px;
+			margin-top: 25px;
+			margin-right: 10px;
+
+
+		}
+
+		.bor {
+			box-shadow: 10px 10px 10px rgb(177, 220, 221);
+			border-top-left-radius: 30px;
+			border-top-right-radius: 30px;
+			border-bottom-left-radius: 30px;
+			border-bottom-right-radius: 30px;
+		}
+
+		.bor2 {
+			box-shadow: 10px 10px 10px rgb(229, 211, 235);
+			border-top-left-radius: 30px;
+			border-top-right-radius: 30px;
+			border-bottom-left-radius: 30px;
+			border-bottom-right-radius: 30px;
+		}
+
+		.popup {
+			margin-left: 90%;
+			position: fixed;
+			top: 100px;
+			right: 8px;
+			margin-bottom: 20px;
+
+		}
+
+		.but {
+			font-size: large;
+			width: 100px;
+			padding: 10px;
+
+			border-color: transparent;
+			border-top-left-radius: 40px;
+			border-top-right-radius: 40px;
+			border-bottom-left-radius: 40px;
+			border-bottom-right-radius: 40px;
+			background-color: deeppink;
+			color: #ffffff;
+
+		}
+
+		.but:hover {
+			background-color: purple;
+			color: lightcyan;
+
+		}
+	</style>
+	<link href="fontawesome/css/all.css" rel="stylesheet" type="text/css">
+</head>
+
+
+
+<body>
+	<div class="nav">
+		<img align="left" class="mylogo" src="mylogo.png" height="70px" width="70px">
+		<img align="left" class="logo4" src="search.png">
+		<div align="left" class="sbox"><input type="text" class="search" placeholder="   search products here">
+
+			<img align="right" class="logo3" src="options.png">
+			<img align="right" class="logo" src="cart.png">
+			<img align="right" class="logo2" src="person.png">
+		</div>
+	</div>
+	<div>
+		<br>
+		<div>
+			<img class="box" src="Polish_20230822_110706747.jpg" width="100%" height="50%">
+		</div>
+		<br>
+		<div class="marquee">
+			<marquee width="100%">
+				Shipping free on Shopping of rs 1,000 and free gift worth of rs 500 on every order of
+				rs 3,000.
+			</marquee>
+		</div><br>
+		<div class="popup" align="">
+			<img align="left" src="what.png" width="80px" height="80px" style="margin-top: 4px; margin-left: 8px;">
+		</div>
+		<hr width="70%">
+		<div align="center" class="txt"><br>Spreading<br>Happiness Through<br>Craft</div>
+		<br>
+		<br>
+		<br>
+		<HR width="70%">
+		<br>
+		<br>
+		<h3 align="center" class="best">Best Sellers</h3><br>
+		<br>
+		<div class="inline-div1">
+			<img src="IMG20220909124454.jpg" style="margin:20px;" width="300vw" height="300vh">
+			<h4>Pregnancy Journal</h4>
+			<h6>best selling pregnancy journal<br>of our store.</h6>
+			<input class="but" type="submit" value="shop now" />
+		</div>
+		<div class="inline-div1">
+			<img src="IMG20221028113903.jpg" style="margin:20px;" width="300vw" height="300vh">
+			<h4> Baby Record Book</h4>
+			<h6>best selling pregnancy journal<br>of our store.</h6>
+			<input class="but" type="submit" value="shop now" />
+
+		</div>
+		<div class="inline-div1">
+			<img src="IMG20221028113903.jpg" style="margin:20px;" width="300vw" height="300vh">
+			<h4> Baby Record Book</h4>
+			<h6>best selling pregnancy journal<br>of our store.</h6>
+			<input class="but" type="submit" value="shop now" />
+
+		</div>
+
+		<br>
+
+
+		<hr width="50%">
+
+		<h2 align="center">Other Products</h2>
+		<div align="center">
+			<div class="inline-div">
+				<img class="bor2" src="IMG20220909124454.jpg" width="200" height="30%">
+				<h4>Pregnancy Journal</h4>
+				<h6>best selling pregnancy journal<br>of our store.</h6>
+				<input class="but" type="submit" value="shop now" />
+			</div>
+			<div class="inline-div">
+				<img class="bor2" src="IMG20221028113903.jpg" width="200" height="30%">
+				<h4> Baby Record Book</h4>
+				<h6>best selling pregnancy journal<br>of our store.</h6>
+				<input class="but" type="submit" value="shop now" />
+
+			</div>
+
+
+			<div class="inline-div">
+				<img class="bor2" src="IMG20220528121403.jpg" width="200" height="30%">
+				<h4>Pregnancy+Baby Book</h4>
+				<h6>best selling preg+baby book<br>of our store.</h6>
+				<input class="but" type="submit" value="shop now" />
+			</div>
+			<div class="inline-div">
+				<img class="bor2" src="IMG20230329155120.jpg" width="200" height="30%">
+				<h4>Love Story Journal</h4>
+				<h6>best selling love story journal<br>of our store.</h6>
+				<input class="but" type="submit" value="shop now" />
+			</div>
+			<div class="inline-div">
+				<img class="bor2" src="IMG20221028113903.jpg" width="200" height="30%">
+				<h4> Baby Record Book</h4>
+				<h6>best selling pregnancy journal<br>of our store.</h6>
+				<input class="but" type="submit" value="shop now" />
+
+
+			</div>
+			<br>
+			<br>
+			<br>
+
+			<div class="inline-div">
+				<img class="bor2" src="IMG20230512152934.jpg" width="200" height="30%">
+				<h4>Baby Miniature Frame</h4>
+				<h6>best selling frames<br>of our store.</h6>
+				<input class="but" type="submit" value="shop now" />
+			</div>
+			<div class="inline-div">
+				<img class="bor2" src="IMG20230617150837.jpg" width="200" height="30%">
+				<h4>Couples Miniature Frame</h4>
+				<h6>best selling frames<br>of our store.</h6>
+				<input class="but" type="submit" value="shop now" />
+			</div>
+			<div class="inline-div">
+				<img class="bor2" src="IMG20220909124454.jpg" width="200" height="30%">
+				<h4>Pregnancy Journal</h4>
+				<h6>best selling pregnancy journal<br>of our store.</h6>
+				<input class="but" type="submit" value="shop now" />
+			</div>
+			<div class="inline-div">
+				<img class="bor2" src="IMG20221028113903.jpg" width="200" height="30%">
+				<h4> Baby Record Book</h4>
+				<h6>best selling pregnancy journal<br>of our store.</h6>
+				<input class="but" type="submit" value="shop now" />
+
+
+			</div>
+			<div class="inline-div">
+				<img class="bor2" src="IMG20221028113903.jpg" width="200" height="30%">
+				<h4> Baby Record Book</h4>
+				<h6>best selling pregnancy journal<br>of our store.</h6>
+				<input class="but" type="submit" value="shop now" />
+
+
+			</div>
+		</div>
+		<br>
+		<br>
+		<div width="70%">
+			<div align="center">
+				<hr width="70%">
+				<br>
+				<h1>"Handcrafted Happiness"</h1>
+				<p>a gift that's handmade, is agift not replaced,<br>entrapping sweet memories, that can't
+					be<br>erased,
+					the time and the talent that goes<br>into crafting is where yhe real gift lies, when<br>giving
+					art
+					away!! Made with two hands and<br>the love of one's heart, handmade is <br>extraordinary and
+					true
+					work of art. so<br>when receiving handmade rather than store<br> bought, know in your heart that
+					someone <br>loves u alot!!</p>
+				<br>
+				<hr width="70%">
+
+			</div>
+		</div>
+		<br>
+		<h1 align="center" style="font-size:60px">Testimonials</h1><br>
+
+		<div class="testimonials1"">
+			<div>
+				<img class=" testimonials" src="TESTIMONIALS/0b23ef36418ee1b7b56fe6aed6e0662f.jpg" width="200" height="200">
+			<h3>
+				Ellie
+			</h3>
+			<h5>hello my name is Ellie<br>i am from australia , i have shoped <br>from this page many times<br>i
+				love
+				the quality they provide and i also love <br>and i also love the creativity of the creator.</h5>
+
+		</div>
+		<div>
+			<img class="testimonials" src="TESTIMONIALS/5e964b4d1a6a514bf141c694f5037537.jpg" width="200" height="200">
+			<h3>
+				Adam
+			</h3>
+			<h5>hello my name is Adam<br>i am from canada, i have shoped <br>from this page many times<br>i love
+				the quality they provide and i also love <br>and i also love the creativity of the creator.</h5>
+
+		</div>
+		<div>
+			<img class="testimonials" src="TESTIMONIALS/7c13b9e87f2c22d81820b78c95d88219.jpg" width="200" height="200">
+			<h3>
+				Eliana
+			</h3>
+			<h5>hello my name is Eliana<br>i am from peru , i have shoped <br>from this page many times<br>i love
+				the quality they provide and i also love <br>and i also love the creativity of the creator.</h5>
+		</div>
+
+
+	</div>
+	<div class="testimonials1"">
+				<div>
+					<img class=" testimonials" src="TESTIMONIALS/d45ac195b056b4d7a367ed4b247163be.jpg" width="200" height="200">
+		<h3>
+			Eliana
+		</h3>
+		<h5>hello my name is Eliana<br>i am from peru , i have shoped <br>from this page many times<br>i love
+			the quality they provide and i also love <br>and i also love the creativity of the creator.</h5>
+
+	</div>
+	<div>
+		<img class="testimonials" src="TESTIMONIALS/d3ef3e99729ed449ccb6c1db65f7c1e7.jpg" width="200" height="200">
+		<h3>
+			Julie
+		</h3>
+		<h5>hello my name is Julie<br>i am from india, i have shoped <br>from this page many times<br>i love
+			the quality they provide and i also love <br>and i also love the creativity of the creator.</h5>
+
+	</div>
+	<div>
+		<img class="testimonials" src="TESTIMONIALS/9c74e32d1ecedcce8f89c3945a91e4d4.jpg" width="200" height="200">
+		<h3>
+			Jack
+		</h3>
+		<h5>hello my name is Jack<br>i am from india, i have shoped <br>from this page many times<br>i love
+			the quality they provide and i also love <br>and i also love the creativity of the creator.</h5>
+	</div>
+	</div>
+	<hr width="50%">
+	<div>
+	</div>
+	<div class="footer">
+		<br>
+		<div align="center " class="span">Know Us Better</div>
+		<div align="center" class="logo1">
+			<img class="logo" src="facebook.png" width="60px" height="60px" style="margin: 15px">
+			<img class="logo" src="instagram.png" width="60px" height="60px" style="margin:15px">
+			<img class=" logo" src="what.png" width="60px" height="60px" style="margin: 15px">
+			<img class=" logo" src="pin.png" width="60px" height="60px" style="margin: 15px">
+			<img class=" logo" src="youtube.png" width="60px" height="60px" style="margin: 15px">
+		</div>
+		<br>
+		<br>
+		<div align="center" class="links">
+
+			Home ||
+			Contact us ||
+			About Us
+		</div>
+	</div>
+
+	</div>
+</body>
+
+</html>
